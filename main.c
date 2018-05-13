@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include "add.h"
+#include "subtract.h"
 
 int main(){
 	int op, op1, op2;
@@ -26,7 +27,7 @@ int main(){
 			printf("O resultado e: %d\n", add(op1,op2) ); //do addition
 			break;	
 		case 1: 
-			// do subtraction
+			printf("O resultado e: %d\n", subtract(op1,op2) );// do subtraction
 			break;
 		default:
 				printf("Argumento invalido\n");
